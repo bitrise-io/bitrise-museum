@@ -9,16 +9,23 @@ h1 {
     margin: 0 0 2rem;
 }
 
-img {
-    display: block;
-    max-width: 60%;
-}
-
-hr {
-    margin: 3rem 0;
-}
-
-div {
+main {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+}
+
+main a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 800px) {
+    img {
+        max-width: 100%;
+    }
 }
