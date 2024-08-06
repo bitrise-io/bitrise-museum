@@ -2,6 +2,7 @@ var main = document.querySelector('main');
 var template = '<a href="#url#" target="_blank" title="#url#"><img src="#url#" alt="#url#"></a>';
 
 var images = [
+    "images/artifacts-placeholder-during-build.svg",
     "images/1-continuous.svg",
     "images/2-code.svg",
     "images/3-hosted.svg",
@@ -11,6 +12,7 @@ var images = [
     "images/bitbot-sad.svg",
     "images/bitrise-referral-image.svg",
     "images/deploy-app-to-real-device.svg",
+    'images/discount-contributors.svg',
     "images/guide-01.svg",
     "images/guide-02.svg",
     "images/guide-03.svg",
@@ -19,6 +21,7 @@ var images = [
     "images/promotion-cathead.png",
     "images/promotion-t-shirt.png",
     "images/public-page-logo.svg",
+    'images/rocket_in_circle.svg',
     "images/space-with-items.svg",
     "images/support_staff_badge.svg",
     'images/support-bitbot-purple.svg',
